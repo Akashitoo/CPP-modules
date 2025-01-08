@@ -11,9 +11,9 @@ Account::~Account(void){
 
 void Account::displayAccountsInfos(void)
 {
-    this->_displayTimestamp();
-    this->getNbAccounts();
-    this->getTotalAmount();
-    this->getNbDeposits();
-    this->getNBWithdrawals();
+    _displayTimestamp();
+    getNbAccounts();
+    getTotalAmount();
+    getNbDeposits();
+    getNbWithdrawals();
 };
